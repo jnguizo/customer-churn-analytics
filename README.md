@@ -52,7 +52,7 @@
 
 
 
-\## 🚀 Installation
+\##  Installation
 
 
 
@@ -68,13 +68,14 @@ pip install -r requirements.txt
 
 
 
-\##  Résultats
+##  Résultats
 
+| Modèle | AUC-ROC |
+|--------|---------|
+| Logistic Regression | 0.832 |
+| Random Forest | 0.817 |
+| XGBoost | 0.811 |
 
-
-\- Taux de churn : \*\*\~26%\*\* des clients
-
-\- Meilleur modèle : \*\*XGBoost\*\*
-
-\- Variables clés : tenure, type de contrat, charges mensuelles
-
+- Taux de churn : **26.54%** des clients
+- Meilleur modèle : **Logistic Regression** (AUC-ROC: 0.832)
+- Variables clés : tenure, type de contrat, charges mensuelles
