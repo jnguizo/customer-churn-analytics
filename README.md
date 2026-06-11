@@ -1,38 +1,27 @@
-# \# Customer Churn Analytics
-
-# 
+# Customer Churn Analytics
 
 # Projet End-to-End : Dashboard décisionnel (Power BI) et modèle prédictif (Machine Learning) pour l'analyse du Churn client.
 
-# 
-
-# \##  Objectif
-
-# 
-
+# Objectif
 # Analyser et prédire le churn (attrition) des clients d'une entreprise de télécommunications à partir de données réelles (7 043 clients, 21 variables).
 
-# 
-
-# \##  Structure du projet
+#  Structure du projet
 
 
 
-\## 🔧 Technologies utilisées
+#  Technologies utilisées
 
+ \*\*Power BI\*\*  Dashboard décisionnel \& KPIs
 
+\*\*Python\*\* Analyse exploratoire \& Machine Learning
 
-\- \*\*Power BI\*\* — Dashboard décisionnel \& KPIs
+\*\*pandas, numpy\*\* Manipulation des données
 
-\- \*\*Python\*\* — Analyse exploratoire \& Machine Learning
+\*\*matplotlib, seaborn\*\* Visualisation
 
-\- \*\*pandas, numpy\*\* — Manipulation des données
+\*\*scikit-learn, XGBoost\*\* Modèles ML
 
-\- \*\*matplotlib, seaborn\*\* — Visualisation
-
-\- \*\*scikit-learn, XGBoost\*\* — Modèles ML
-
-\- \*\*SQL\*\* — Requêtes analytiques
+\*\*SQL\*\* Requêtes analytiques
 
 
 
@@ -51,10 +40,7 @@
 | XGBoost | Gradient boosting |
 
 
-
-\##  Installation
-
-
+##  Installation
 
 ```bash
 
@@ -65,8 +51,6 @@ cd customer-churn-analytics
 pip install -r requirements.txt
 
 ```
-
-
 
 ##  Résultats
 
